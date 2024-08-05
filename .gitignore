@@ -1,9 +1,7 @@
 venv/
 .idea/
 __pycache__/
-data/
 dist/
 *.patch
 src/certs/
 build/
-*.spec

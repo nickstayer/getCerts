@@ -1,0 +1,6 @@
+
+pyinstaller .\main.spec
+
+pyinstaller --onefile --distpath C:\Git\getCerts\dist .\src\main.py
+
+nuitka --standalone --onefile --output-dir=dist --include-data-dir=src/transliterate=transliterate src/main.py
